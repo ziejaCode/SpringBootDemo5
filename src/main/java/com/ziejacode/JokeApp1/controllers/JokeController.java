@@ -17,7 +17,7 @@ public class JokeController {
     }
     @RequestMapping({"/",""})
     public String getJoke(Model model){
-        System.out.println("test nr 2");
+        System.out.println("test nr 245");
         model.addAttribute("joke", jokeService.getJoke());
         return "chucknorris";
     }
